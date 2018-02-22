@@ -1,6 +1,7 @@
 # One-shot learning by Hernán Borré
 ![oneshot task](images/nway-one-shot-img-hb.png)
-Pairwise training loading dataset based on the [Omniglot dataset]( https://github.com/brendenlake/omniglot).
+
+Pairwise training loading dataset based on the [Omniglot dataset]( https://github.com/brendenlake/omniglot ).
 
 Code and data preprocessing inspired from this amazing [blog post](https://sorenbouma.github.io/blog/oneshot).
 
@@ -19,9 +20,8 @@ conda create -n myenv --file package-list.txt
 ```
 
 
-Then you'll need to download the omniglot dataset and preprocess/pickle it with the load_data.py script.
+The Omniglot dataset is included in the project. Let's preprocess/pickle it with the load_data.py script.
 ```bash
-git clone https://github.com/brendenlake/omniglot
 python load_data.py --path <PATH TO THIS FOLDER>
 ```
 Finally you can run the jupyter notebook and search for the file "Dataset Loading.ipynb" to play with the data and load N-Shot dataset ready to use images!
