@@ -1,21 +1,20 @@
-# keras-oneshot by SORENBOUMA
-![oneshot task](images/task_25.png)
-[koch et al, Siamese Networks for one-shot learning,](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)  (mostly) reimplimented in keras.
-Trains on the [Omniglot dataset]( https://github.com/brendenlake/omniglot).
+# One-shot learning by Hernán Borré
+![oneshot task](images/nway-one-shot-img-hb.png)
+Pairwise training loading dataset based on the [Omniglot dataset]( https://github.com/brendenlake/omniglot).
 
-Also check out my [blog post](https://sorenbouma.github.io/blog/oneshot) about this paper and one shot learning in general!
-
+Code and data preprocessing inspired from this amazing [blog post](https://sorenbouma.github.io/blog/oneshot).
 
 
 ## Installation Instructions
 
 
-To run, you'll first have to clone this repo and install the dependencies
+To run, you'll first have to clone this repo and install the dependencies.
+I use conda for package and enviroment manager, so preferably to keep things up you should have it installed
 
 ```bash
-git clone https://github.com/sorenbouma/keras-oneshot
-cd keras-oneshot
-sudo pip install -r requirements.txt
+git clone https://github.com/hernanborre/oneshot-hb
+cd oneshot-hb
+conda create -n myenv --file package-list.txt
 
 ```
 
@@ -25,7 +24,7 @@ Then you'll need to download the omniglot dataset and preprocess/pickle it with 
 git clone https://github.com/brendenlake/omniglot
 python load_data.py --path <PATH TO THIS FOLDER>
 ```
-Then you can run the jupyter notebook. If you used python2 to load the data, make sure you use a python2 kernel in your jupyter notebook and vice versa. It's also a good idea to make sure you're using the latest versions of keras and tensorflow.
+Finally you can run the jupyter notebook and search for the file "Dataset Loading.ipynb" to play with the data and load N-Shot dataset ready to use images!
 ```bash
 jupyter notebook
 ```
