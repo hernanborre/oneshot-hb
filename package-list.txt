@@ -3,8 +3,8 @@
 # platform: osx-64
 appnope=0.1.0=py36hf537a9a_0
 bleach=2.1.2=py36_0
-ca-certificates=2017.08.26=ha1e5d58_0
-certifi=2018.1.18=py36_0
+ca-certificates=2018.03.07=0
+certifi=2018.4.16=py36_0
 cycler=0.10.0=py36hfc81398_0
 dbus=1.12.2=h5243cc1_1
 decorator=4.2.1=py36_0
@@ -45,14 +45,14 @@ libtiff=4.0.9=h0dac147_0
 markupsafe=1.0=py36h3a1e703_1
 matplotlib=2.1.2=py36h6d6146d_0
 mistune=0.8.3=py36_0
-mkl=2018.0.1=hfbd8650_4
+mkl=2018.0.2=1
 nbconvert=5.3.1=py36h810822e_0
 nbformat=4.4.0=py36h827af21_0
 ncurses=6.0=hd04f020_2
 notebook=5.4.0=py36_0
 numpy=1.12.1=py36h8871d66_1
 olefile=0.45.1=py36_0
-openssl=1.0.2n=hdbc3d79_0
+openssl=1.0.2o=h26aff7b_0
 pandas=0.22.0=py36h0a44026_0
 pandoc=1.19.2.1=ha5e8f32_1
 pandocfilters=1.4.2=py36h3b0b094_1
@@ -78,7 +78,7 @@ qt=5.6.2=h9975529_14
 qtconsole=4.3.1=py36hd96c0ff_0
 readline=7.0=hc1231fa_4
 scikit-learn=0.19.1=py36hffbff8c_0
-scipy=1.0.0=py36h1de22e9_0
+scipy=1.0.1=py36hcaad992_0
 seaborn=0.8.1=py36h595ecd9_0
 send2trash=1.4.2=py36_0
 setuptools=38.4.0=py36_0
