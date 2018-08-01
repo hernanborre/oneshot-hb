@@ -49,7 +49,7 @@ mkl=2018.0.2=1
 nbconvert=5.3.1=py36h810822e_0
 nbformat=4.4.0=py36h827af21_0
 ncurses=6.0=hd04f020_2
-notebook=5.4.0=py36_0
+notebook=5.4.1=py36_0
 numpy=1.12.1=py36h8871d66_1
 olefile=0.45.1=py36_0
 openssl=1.0.2o=h26aff7b_0
